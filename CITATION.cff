@@ -8,5 +8,4 @@ authors:
 version: "TC-20261025-v1"
 abstract: "Code for the bachelor's thesis Multilingual LLM-as-a-Judge Reliability: Diagnosis, Selective Verification, and Targeted Adaptation (Technical University of Munich, 2026)."
 license: MIT
-# Add after creating the repository:
-# repository-code: "https://github.com/<user>/multilingual-llm-judge-reliability"
+repository-code: "https://github.com/cagla326/multilingual-llm-judge-reliability"
