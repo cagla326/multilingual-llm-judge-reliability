@@ -19,7 +19,7 @@ The thesis evaluates Gemma 3 4B as a judge of factual attribution against mFACE 
 ## Distinguish the deliverables
 
 - This code package contains selected recovered scripts, protocols and exact prompts, without research datasets, model weights or credentials.
-- **Thesis_Evidence_2026-10-24_v1.zip**, identifier **TE-20261024-v1**, is the separate evidence archive containing saved outputs, selected inputs, reference scores and a hash manifest. It was submitted with the thesis and is not included in this repository. The reproduction commands below need it.
+- **Thesis_Evidence.zip**, identifier **TE-20261024-v1** (it extracts to the folder `Thesis_Evidence_2026-10-24_v1`), is the separate evidence archive containing saved outputs, selected inputs, reference scores and a hash manifest. It was submitted with the thesis and is not included in this repository. The reproduction commands below need it.
 - The thesis source/PDF carries the scientific argument. Original endpoints, prior exposure and post-hoc status are not changed by publishing code.
 
 ## Tested CPU reproduction
