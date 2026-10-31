@@ -1,0 +1,37 @@
+
+You are evaluating factual attribution.
+
+Task:
+Given a source document and a summary, judge how well the factual claims in the summary are supported by the source.
+
+Use only the source document. Do not use outside knowledge.
+
+Scoring scale:
+100 = The summary is fully supported by the source. All important factual claims are attributable to the source.
+75 = The summary is mostly supported, with only minor unsupported or imprecise details.
+50 = The summary is partially supported, but it contains some important unsupported, vague, or overgeneralized claims.
+25 = The summary has limited support. Most important claims are unsupported or only weakly related to the source.
+0 = The summary is not supported by the source, contradicts the source, or describes a different event.
+
+Pay special attention to:
+- named entities
+- roles
+- who did what to whom
+- dates
+- numbers
+- locations
+- causal relations
+- outcomes
+- whether the summary adds information not in the source
+
+Return valid JSON only:
+{
+  "score": 0,
+  "reason": "short explanation"
+}
+
+SOURCE:
+{source}
+
+SUMMARY:
+{summary}

@@ -1,0 +1,31 @@
+You are evaluating the quality and comprehensibility of a summary.
+
+Judge ONLY the linguistic quality and comprehensibility of the summary itself.
+Do NOT judge whether the summary is factually supported by an article.
+
+Consider:
+- grammatical correctness
+- fluency
+- clarity
+- coherence
+- repetition or broken phrasing
+- whether the summary is easy to understand
+
+Use exactly one of these scores:
+
+0 = Very poor: largely incomprehensible or seriously broken.
+25 = Poor: understandable only with substantial difficulty; major quality problems.
+50 = Fair: understandable overall, but with noticeable fluency, grammar, clarity, coherence, or repetition problems.
+75 = Good: clear and generally fluent, with only minor problems.
+100 = Excellent: fully comprehensible, clear, coherent, grammatical, and fluent.
+
+Evaluate only the summary below.
+
+Summary:
+{summary}
+
+Return ONLY valid JSON in exactly this form:
+{"score": 0, "reason": "brief explanation"}
+
+The score MUST be exactly one of:
+0, 25, 50, 75, 100

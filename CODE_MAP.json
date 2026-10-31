@@ -1,0 +1,596 @@
+{
+  "identifier": "TC-20261025-v1",
+  "source_records": [
+    {
+      "path": "Supplementary_Technical_Documentation.pdf",
+      "source": "Identical to TE-20261024-v1 Supplementary_Technical_Documentation.pdf",
+      "sha256": "c4181e1fd27bda2bfc24e0728d74f233162029f5644c4d2c20c0883fc700addb"
+    },
+    {
+      "path": "figures/make_figures.py",
+      "source": "final_thesis/figures/make_figures.py",
+      "sha256": "e465d42fe1349ae44dd63d4efa5154e1e25e1a37d44ee50c60f259dbbefadfad"
+    },
+    {
+      "path": "figures/make_result_figures.py",
+      "source": "Identical to TE-20261024-v1 figures/make_result_figures.py (added 29 October 2026)",
+      "sha256": "68625c2c87f3c15015dba6d62685e9bbf07e9b3b1e82de6a31c04f8b01ad8067"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/PROTOCOL.json",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::PROTOCOL.json",
+      "sha256": "995e1eedb39ccd9a04fd80c9db47c59182ad95471387fabd3647df139ef3ad02"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/audit/verify_klue.py",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::audit/verify_klue.py",
+      "sha256": "df81228cee8ee06674a802633bbd1b033c4bb8086d2403553e29291552e09217"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/EXPERIMENT_PLAN.md",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::frozen_run_package/EXPERIMENT_PLAN.md",
+      "sha256": "0ff064c78719e1e85f446232fb0a336643f2fc849f22d7c589e526d079014933",
+      "in_repository": false,
+      "location": "evidence archive TE-20261024-v1 only"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/PROTOCOL.json",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::frozen_run_package/PROTOCOL.json",
+      "sha256": "995e1eedb39ccd9a04fd80c9db47c59182ad95471387fabd3647df139ef3ad02"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/analyze_klue.py",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::frozen_run_package/analyze_klue.py",
+      "sha256": "48669f941807efd636fb82fdd78d3a3d3091904fe079058765ed283f66ac02e6"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/data/UPSTREAM_License.md",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::frozen_run_package/data/UPSTREAM_License.md",
+      "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/prepare_data.py",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::frozen_run_package/prepare_data.py",
+      "sha256": "0f041467d3c6cb7a3acc5333dc82ce1707cadfbb3a26aa03cc9d3ace55a14605"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/run_klue.py",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::frozen_run_package/run_klue.py",
+      "sha256": "225ed40ce22f92cf9b2c236c1eb2bb5a3a026375d2aaf5d630e2c079cbb8e3dd"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/submit_klue.slurm",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::frozen_run_package/submit_klue.slurm",
+      "sha256": "2f4ebdf529612e0041e38f692ad022f863e5e6c1466e553726f17dd27473c384"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/test_offline.py",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::frozen_run_package/test_offline.py",
+      "sha256": "8c1d89235a53b71c9e5a53bf51b0f4c5fa343a77553979f7e13a5a22cce44784"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/validate_inputs.py",
+      "source": "KLUE_Verified_Results_2026-10-19.zip::frozen_run_package/validate_inputs.py",
+      "sha256": "ed26f3520f8ec89235572be028bc415575e0245c7438ded3a61992c4f486210a"
+    },
+    {
+      "path": "historical/Korean_Extension_Verified_Results_2026-10-19/PROTOCOL.json",
+      "source": "Korean_Extension_Verified_Results_2026-10-19.zip::PROTOCOL.json",
+      "sha256": "6f7b70dc3a672139813181a3cfc1e22e2183b13b3a21477fbbc003e008a0a89b"
+    },
+    {
+      "path": "historical/Korean_Extension_Verified_Results_2026-10-19/audit/verify_results.py",
+      "source": "Korean_Extension_Verified_Results_2026-10-19.zip::audit/verify_results.py",
+      "sha256": "e6485b0cd11e80fccfca669fb8962f9062686a9389c6ea426a39e36ed4a1a57c"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/PROTOCOL.json",
+      "source": "Korean_Verifier_Verified_Results_2026-10-19.zip::PROTOCOL.json",
+      "sha256": "579b78160261864c917dd074c921e5b2fadb9fc0ab03045ef2f0427f48629305"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/audit/verify_records.py",
+      "source": "Korean_Verifier_Verified_Results_2026-10-19.zip::audit/verify_records.py",
+      "sha256": "5cea416c6404f9ccc32b6fd189c2d649b9fbf95bfe97976a7e5de016d8e9a8b4"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/PROTOCOL.json",
+      "source": "Korean_Verifier_Verified_Results_2026-10-19.zip::frozen_run_package/PROTOCOL.json",
+      "sha256": "579b78160261864c917dd074c921e5b2fadb9fc0ab03045ef2f0427f48629305"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/analyze.py",
+      "source": "Korean_Verifier_Verified_Results_2026-10-19.zip::frozen_run_package/analyze.py",
+      "sha256": "f1ad61bc1a040c3e87c2b781dc258ccebaecf8efb3a75da11357fee4fa46a039"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/data/UPSTREAM_License.md",
+      "source": "Korean_Verifier_Verified_Results_2026-10-19.zip::frozen_run_package/data/UPSTREAM_License.md",
+      "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/data_checks.py",
+      "source": "Korean_Verifier_Verified_Results_2026-10-19.zip::frozen_run_package/data_checks.py",
+      "sha256": "e9952592c255ce6f93a81c7be4d39826dfc31de939817374f6a44601bdfda533"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/prepare_data.py",
+      "source": "Korean_Verifier_Verified_Results_2026-10-19.zip::frozen_run_package/prepare_data.py",
+      "sha256": "0596aed063ccb38f65a653b4068c5bad7d18a91e4f9fcd2fa5a9909fe8124301"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/submit_verifier.slurm",
+      "source": "Korean_Verifier_Verified_Results_2026-10-19.zip::frozen_run_package/submit_verifier.slurm",
+      "sha256": "e9dcf7d8fab5f826c4fd92a89c8b2e227058a9902b781ac17b04bdd91a42d9f1"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/test_offline.py",
+      "source": "Korean_Verifier_Verified_Results_2026-10-19.zip::frozen_run_package/test_offline.py",
+      "sha256": "dc7ffb58add04eeb70d25b46724f4704cabb4ac75e59e75f1f0cc1cc0a74a393"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/verifier.py",
+      "source": "Korean_Verifier_Verified_Results_2026-10-19.zip::frozen_run_package/verifier.py",
+      "sha256": "00bb77bded48a5b92c409bb73fb13c5174aca1ef9a27536e1c206b36ecf35a2e"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/PROTOCOL.json",
+      "source": "Trigger_Bridge_Verified_Results_2026-10-20.zip::PROTOCOL.json",
+      "sha256": "4c5ddf118dc6d5f60d8ca09205f1150f88bebdbe15cdc39ef4042d27d8a8c9f6"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/audit/verify_records.py",
+      "source": "Trigger_Bridge_Verified_Results_2026-10-20.zip::audit/verify_records.py",
+      "sha256": "1b85f2f957906f46c40adcd980cbba6fa02395e19777b8f65eac0a5b9c98ed21"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/EXPERIMENT_PLAN.md",
+      "source": "Trigger_Bridge_Verified_Results_2026-10-20.zip::frozen_run_package/EXPERIMENT_PLAN.md",
+      "sha256": "767d61b4fa1c0806efe7025c6c4197a4009202e957d3f67f9225e919bc036967",
+      "in_repository": false,
+      "location": "evidence archive TE-20261024-v1 only"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/PROTOCOL.json",
+      "source": "Trigger_Bridge_Verified_Results_2026-10-20.zip::frozen_run_package/PROTOCOL.json",
+      "sha256": "4c5ddf118dc6d5f60d8ca09205f1150f88bebdbe15cdc39ef4042d27d8a8c9f6"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/analyze_bridge.py",
+      "source": "Trigger_Bridge_Verified_Results_2026-10-20.zip::frozen_run_package/analyze_bridge.py",
+      "sha256": "a826ec4aa140d725deadf7398679a361e1dc38ad09b74847a39533edbb1105c0"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/common.py",
+      "source": "Trigger_Bridge_Verified_Results_2026-10-20.zip::frozen_run_package/common.py",
+      "sha256": "b9e31ec7ee82a1839b371f7b371c439bcfc0089701984c94cc35faa6436b4e85"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/run_bridge.py",
+      "source": "Trigger_Bridge_Verified_Results_2026-10-20.zip::frozen_run_package/run_bridge.py",
+      "sha256": "7ea3f3653bba257a47b5242328b7c6c0f8f30f6c4654fcb77879a951332af7f9"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/submit_bridge.slurm",
+      "source": "Trigger_Bridge_Verified_Results_2026-10-20.zip::frozen_run_package/submit_bridge.slurm",
+      "sha256": "d3e507f2729caa07d5a7903c22aa60cfb8586f55b4512b1197e7c2ab30cdf60c"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/test_offline.py",
+      "source": "Trigger_Bridge_Verified_Results_2026-10-20.zip::frozen_run_package/test_offline.py",
+      "sha256": "8a6dd94d8be28e4dd3b18cda11b1837af07b323c3af44f59a0c5fcd275ff7ba0"
+    },
+    {
+      "path": "historical/additional_articles/EXPERIMENT_PLAN.md",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/additional_run/EXPERIMENT_PLAN.md",
+      "sha256": "09b1503f6a931afa2b3b0b4b7ab8250231caecba26cb7e8afa9bfa04bc7e8e2f",
+      "in_repository": false,
+      "location": "evidence archive TE-20261024-v1 only"
+    },
+    {
+      "path": "historical/additional_articles/PROTOCOL.json",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/additional_run/PROTOCOL.json",
+      "sha256": "79c9971a525210dfd5b46486a7f374f2f4655edb63561ce6b5165acab538d958"
+    },
+    {
+      "path": "historical/additional_articles/analyze_holdout.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/additional_run/analyze_holdout.py",
+      "sha256": "5e2bd54163ed6075869786556d88d3f41ae7b57615841ffcc7b3dc21d908a810"
+    },
+    {
+      "path": "historical/additional_articles/common.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/additional_run/common.py",
+      "sha256": "3f16c6075c4700d81472aa90b9e6d33ae3e9dfa66e20c8f4e3d01d683b0d6882"
+    },
+    {
+      "path": "historical/additional_articles/make_holdout.py",
+      "source": "holdout_supplement/Holdout_Audit_Supplement/data/make_holdout.py",
+      "sha256": "705e901840d7cd86300c64ed14d344accaf2ca592967c31570f06a8fed7f6223"
+    },
+    {
+      "path": "historical/additional_articles/run_holdout.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/additional_run/run_holdout.py",
+      "sha256": "8a730040f1d6c86fd18dcaa2447b1fe410b6f7f74333f7bd55ddf3ebddfb6246"
+    },
+    {
+      "path": "historical/development/annotate_q2_error50.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/development/annotate_q2_error50.py",
+      "sha256": "c12ed4356b024e90f409ad67f69298212a709840c2e94f67c6404f10e0f21e71"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q1.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/development/run_gemma_fullsource_q1.py",
+      "sha256": "1b3a3ccc790b5e582339d14775ed37d8a2d4c332128a130d6e8daae6d99c082d"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q2.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/development/run_gemma_fullsource_q2.py",
+      "sha256": "94613f388d3f18ffe5639db518d7358fcde608ef397e71bf95bbfa1ee3a6706c"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q2_hybrid.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/development/run_gemma_fullsource_q2_hybrid.py",
+      "sha256": "16323c3e93bbcd28f95ed48fb66e918cb0bb0c4015ad4392c1ecd6d7ff25361b"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q2_selfeval.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/development/run_gemma_fullsource_q2_selfeval.py",
+      "sha256": "d1c2aa664ecaf033beed3e0c4ff625dd259165a7dc75a576c0f5796b6454d3f8"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q2_taxaudit.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/development/run_gemma_fullsource_q2_taxaudit.py",
+      "sha256": "2341df0371055c243ea31585d922877a0094fb2597b37e4860e0c0423436aa1a"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q3.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/development/run_gemma_fullsource_q3.py",
+      "sha256": "562f7a51baa1940611fd0a7aa63bc4b0e9bedbc0a4cab69be597c6621f4b54ad"
+    },
+    {
+      "path": "historical/development/run_structured_claim_verification_dev10.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/development/run_structured_claim_verification_dev10.py",
+      "sha256": "7b752fc37c4b853be098259ac5bfb1962163c5d197635355c53e8055aae4af98"
+    },
+    {
+      "path": "historical/development/run_structured_claim_verification_translated_dev10.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/archival/development/run_structured_claim_verification_translated_dev10.py",
+      "sha256": "3ceff0cec3b66470501095737c8c6143be0b844fb6cd8933ce9cd0dbf7ec55bb"
+    },
+    {
+      "path": "historical/korean_dpo/FINAL_DPO_TRAINING_PROTOCOL.json",
+      "source": "korean_evidence_2026-10-19/korean_records/FINAL_DPO_TRAINING_PROTOCOL.json",
+      "sha256": "00c10975859a8682f301250d382653ed82e72fa9a9ae262a094ab81a6de3c86e"
+    },
+    {
+      "path": "historical/korean_dpo/eval_korean_xlsum_FINAL_TEST50.py",
+      "source": "korean_evidence_2026-10-19/korean_records/eval_korean_xlsum_FINAL_TEST50.py",
+      "sha256": "87a378de6998874c428b5a575144883804210a7bddc21e6a0beb505a78a9eae8"
+    },
+    {
+      "path": "historical/korean_dpo/submit_korean_xlsum_FINAL_DPO.slurm",
+      "source": "korean_evidence_2026-10-19/korean_records/submit_korean_xlsum_FINAL_DPO.slurm",
+      "sha256": "58b85cdb8a193a0f6dda99ba47ffff5c58471ea64a052432e4ac2a0fd00a4b03",
+      "original_sha256": "f1876ff12feb2590bd4be41eb0bbcc7db571cab49a5423bff8fb514253118b0a",
+      "publication_change": "Only the cluster working-directory line was replaced by \"$HOME/korean_training/lora_experiment\" to remove a personal path. The original bytes (original_sha256) are preserved in the evidence archive."
+    },
+    {
+      "path": "historical/korean_dpo/submit_korean_xlsum_FINAL_TEST50.slurm",
+      "source": "korean_evidence_2026-10-19/korean_records/submit_korean_xlsum_FINAL_TEST50.slurm",
+      "sha256": "8349336badd32bf9847bf14d73df3bcb062bc6e67f9b3f050a4ed6cda269df27",
+      "original_sha256": "781250e5d83c801c9d31b9aa6fa6de31ed338ac27610ddb54988f3fa217bd1aa",
+      "publication_change": "Only the cluster working-directory line was replaced by \"$HOME/korean_training/lora_experiment\" to remove a personal path. The original bytes (original_sha256) are preserved in the evidence archive."
+    },
+    {
+      "path": "historical/korean_dpo/train_korean_xlsum_FINAL_DPO.py",
+      "source": "korean_evidence_2026-10-19/korean_records/train_korean_xlsum_FINAL_DPO.py",
+      "sha256": "0b0b3e1589902143ccc250eb20f0b9daf8ce9568ed5cb9d7f8068a41c597ba03"
+    },
+    {
+      "path": "historical/korean_extension/EXPERIMENT_PLAN.md",
+      "source": "Korean_Extension_2026-10-19/package/EXPERIMENT_PLAN.md",
+      "sha256": "73376d2cd211328302b9f15e43861b5d1db35fb59d9091aa104c8b84ffbead45",
+      "in_repository": false,
+      "location": "evidence archive TE-20261024-v1 only"
+    },
+    {
+      "path": "historical/korean_extension/PROTOCOL.json",
+      "source": "Korean_Extension_2026-10-19/package/PROTOCOL.json",
+      "sha256": "6f7b70dc3a672139813181a3cfc1e22e2183b13b3a21477fbbc003e008a0a89b"
+    },
+    {
+      "path": "historical/korean_extension/analyze_extension.py",
+      "source": "Korean_Extension_2026-10-19/package/analyze_extension.py",
+      "sha256": "b3cda5c98588e252789a55fe41cb0e597226a031c3b26c7fe84a4009b67e02d8"
+    },
+    {
+      "path": "historical/korean_extension/audit_historical_korean.py",
+      "source": "Korean_Extension_2026-10-19/package/audit_historical_korean.py",
+      "sha256": "11f6d6ce0247b581b53773a4f54f751b86eb54e7c4fa1b1390ba03202738b95b"
+    },
+    {
+      "path": "historical/korean_extension/run_extension.py",
+      "source": "Korean_Extension_2026-10-19/package/run_extension.py",
+      "sha256": "564bf3cb509d7a5b5dd646d0def63fb59042127c365d7947a86f7a9c15e60ab5"
+    },
+    {
+      "path": "historical/korean_extension/submit_extension.slurm",
+      "source": "Korean_Extension_2026-10-19/package/submit_extension.slurm",
+      "sha256": "918c095cfa723a47166f9f8dfa4509f955cd33b64e95da545b51725b0a1d252f"
+    },
+    {
+      "path": "historical/korean_extension/test_offline.py",
+      "source": "Korean_Extension_2026-10-19/package/test_offline.py",
+      "sha256": "384fa2655d853589a12e9a994a489bfefa83b15b3ee8badbe77608758fee887e"
+    },
+    {
+      "path": "prompts/claim_extraction.txt",
+      "source": "final_thesis/prompts/claim_extraction.txt",
+      "sha256": "fed9983a949c6073f83458bde6c382df22b4e7d63e91c543383a461a03a605bd"
+    },
+    {
+      "path": "prompts/claim_verification.txt",
+      "source": "final_thesis/prompts/claim_verification.txt",
+      "sha256": "aabd07bc160d4fb215cd04539522d2925c536a2c55d4cc248911d1e04ead1266"
+    },
+    {
+      "path": "prompts/korean_test50_unicode.txt",
+      "source": "final_thesis/prompts/korean_test50_unicode.txt",
+      "sha256": "c56b0f71351d1df0020cd751fd55fa77069b442a4f4da1cbc1f5c2c5401e0dd9"
+    },
+    {
+      "path": "prompts/korean_test50_utf8.txt",
+      "source": "final_thesis/prompts/korean_test50_utf8.txt",
+      "sha256": "0d4746b765334fff6134e530d2e30831ef246571f913b725e95fe5a24fad54a3"
+    },
+    {
+      "path": "prompts/q1_holistic.txt",
+      "source": "final_thesis/prompts/q1_holistic.txt",
+      "sha256": "c79032bfb3099003863cfa347817f16bf5d35308d875018904e970c752821479"
+    },
+    {
+      "path": "prompts/q2_holistic.txt",
+      "source": "final_thesis/prompts/q2_holistic.txt",
+      "sha256": "0c880fb71bc75991e9ad832c6341813b95fea1fb3400c2c02bbbce70da150040"
+    },
+    {
+      "path": "prompts/q3_holistic.txt",
+      "source": "final_thesis/prompts/q3_holistic.txt",
+      "sha256": "92e6e99d0940290ac71040ee66fe0d8385fe565c3d70e86dc4b91d017b804cc2"
+    },
+    {
+      "path": "prompts/translation.txt",
+      "source": "final_thesis/prompts/translation.txt",
+      "sha256": "57872ab7cfd50a7f0f381f973ce32afa22a9975e5001c816e536e7aa0dfcb3cb"
+    },
+    {
+      "path": "requirements_cpu.txt",
+      "source": "Thesis_Evidence_2026-10-24_v1/requirements_analysis.txt",
+      "sha256": "65b97f7db87e4cdcb0f4157240cfece5b48363b3e6a18fdccf72d6528ebcbf85"
+    },
+    {
+      "path": "supplementary_controls/PROTOCOL_FREEZE.json",
+      "source": "Thesis_Evidence_2026-10-24_v1/supplementary_controls/PROTOCOL_FREEZE.json",
+      "sha256": "00cbc94165b24965080a12f542933c45ea4efca78e55bdaa902fb2961e1bdb85"
+    },
+    {
+      "path": "supplementary_controls/analyze_controls.py",
+      "source": "Thesis_Evidence_2026-10-24_v1/supplementary_controls/analyze_controls.py",
+      "sha256": "3e1d3f7866de6cb470886590bf8e41fb9021418b161249a1dd1f10e7fa072ccf"
+    },
+    {
+      "path": "supplementary_controls/computation_cost_summary.py",
+      "source": "Identical to TE-20261024-v1 supplementary_controls/computation_cost_summary.py (descriptive, added 30 October 2026)",
+      "sha256": "d4093d1181e1ae3906eb4397134dc5cd8c6d315d1159365590b7f02eae7fd586"
+    },
+    {
+      "path": "supplementary_controls/failure_handling_sensitivity.py",
+      "source": "Identical to TE-20261024-v1 supplementary_controls/failure_handling_sensitivity.py (exploratory, added 28 October 2026)",
+      "sha256": "6b3e78ae2aa0e83b5dc8ba939969aa42491e2e52aa89af7f279a753feebbcedb"
+    },
+    {
+      "path": "supplementary_controls/released_nli_comparator.py",
+      "source": "Identical to TE-20261024-v1 supplementary_controls/released_nli_comparator.py (exploratory, added 30 October 2026)",
+      "sha256": "fedfe39dcae471ce19fb2297d336f79e376dbb16c6727bbc64585b7d20a12e69"
+    },
+    {
+      "path": "supplementary_controls/results_cost_v1/RESULTS.json",
+      "source": "Saved summary from TE-20261024-v1",
+      "sha256": "d67c1a2033d447efeefd8f66196147192fab50beed2ff99edf8dc7c0488fe174"
+    },
+    {
+      "path": "supplementary_controls/results_failure_v1/RESULTS.json",
+      "source": "Saved summary from TE-20261024-v1",
+      "sha256": "967455e91b00ad49a2640c6014c5b4b0d3310c677ab5224161858968897c56cc"
+    },
+    {
+      "path": "supplementary_controls/results_released_nli_v1/RESULTS.json",
+      "source": "Saved summary from TE-20261024-v1",
+      "sha256": "faccc45a343ca215ac9f5bba4ba0ad987708b79e2627d8a07589a35150d7f2df"
+    },
+    {
+      "path": "supplementary_controls/results_scale_v1/RESULTS.json",
+      "source": "Saved summary from TE-20261024-v1",
+      "sha256": "88e81521d915ba9cc7469cdecd04d5749dcfad5ffb9633b995adcdadee88be66"
+    },
+    {
+      "path": "supplementary_controls/scale_mismatch_check.py",
+      "source": "Identical to TE-20261024-v1 supplementary_controls/scale_mismatch_check.py (exploratory, added 28 October 2026)",
+      "sha256": "c0bb525df8f3341596959c9d4192ea0809e48b91e002c5231b84d33e3dde1179"
+    },
+    {
+      "path": "verify_reproduction.py",
+      "source": "Adapted from TE-20261024-v1 verifier: optional external evidence-root argument only",
+      "sha256": "5905fe126d2edf0b66a2d1e24c34f5d8445206d9d4cd36f4480d7352187877cb"
+    }
+  ],
+  "syntax_only_checks": [
+    {
+      "path": "verify_reproduction.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "figures/make_figures.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "supplementary_controls/analyze_controls.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/korean_extension/run_extension.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/korean_extension/analyze_extension.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/korean_extension/test_offline.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/korean_extension/audit_historical_korean.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/development/annotate_q2_error50.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q2_hybrid.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/development/run_structured_claim_verification_translated_dev10.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q2_taxaudit.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/development/run_structured_claim_verification_dev10.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q2.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q3.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q2_selfeval.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/development/run_gemma_fullsource_q1.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/korean_dpo/train_korean_xlsum_FINAL_DPO.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/korean_dpo/eval_korean_xlsum_FINAL_TEST50.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/additional_articles/make_holdout.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/additional_articles/common.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/additional_articles/run_holdout.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/additional_articles/analyze_holdout.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/analyze.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/verifier.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/test_offline.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/prepare_data.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/frozen_run_package/data_checks.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Korean_Verifier_Verified_Results_2026-10-19/audit/verify_records.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/common.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/run_bridge.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/test_offline.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/frozen_run_package/analyze_bridge.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Trigger_Bridge_Verified_Results_2026-10-20/audit/verify_records.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/Korean_Extension_Verified_Results_2026-10-19/audit/verify_results.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/validate_inputs.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/analyze_klue.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/run_klue.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/test_offline.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/frozen_run_package/prepare_data.py",
+      "syntax": "passed"
+    },
+    {
+      "path": "historical/KLUE_Verified_Results_2026-10-19/audit/verify_klue.py",
+      "syntax": "passed"
+    }
+  ],
+  "gpu_execution_in_this_packaging_step": false,
+  "coverage_limits": [
+    "Recovered code only; no claim that every historical exploratory script was recovered.",
+    "Historical paths and prerequisite files require configuration.",
+    "Saved-score reproduction is the tested entry point.",
+    "Archival uses of pre-registered do not establish external registration."
+  ]
+}

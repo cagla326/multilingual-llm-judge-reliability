@@ -1,0 +1,108 @@
+{
+  "status": "EXPLORATORY_POST_HOC",
+  "added": "2026-10-28",
+  "development": {
+    "n": 900,
+    "bias": 18.11,
+    "human_scores_at_vote_shares_pct": 97.6,
+    "by_judge_score": {
+      "0.0": {
+        "rows": 15,
+        "mean_human": 12.2,
+        "mean_signed_error": -12.2,
+        "share_of_total_signed_error_pct": -1.1
+      },
+      "10.0": {
+        "rows": 1,
+        "mean_human": 33.3,
+        "mean_signed_error": -23.3,
+        "share_of_total_signed_error_pct": -0.1
+      },
+      "25.0": {
+        "rows": 158,
+        "mean_human": 25.5,
+        "mean_signed_error": -0.5,
+        "share_of_total_signed_error_pct": -0.5
+      },
+      "50.0": {
+        "rows": 165,
+        "mean_human": 44.2,
+        "mean_signed_error": 5.8,
+        "share_of_total_signed_error_pct": 5.9
+      },
+      "75.0": {
+        "rows": 498,
+        "mean_human": 48.4,
+        "mean_signed_error": 26.6,
+        "share_of_total_signed_error_pct": 81.3
+      },
+      "90.0": {
+        "rows": 14,
+        "mean_human": 38.1,
+        "mean_signed_error": 51.9,
+        "share_of_total_signed_error_pct": 4.5
+      },
+      "95.0": {
+        "rows": 1,
+        "mean_human": 100.0,
+        "mean_signed_error": -5.0,
+        "share_of_total_signed_error_pct": -0.0
+      },
+      "100.0": {
+        "rows": 48,
+        "mean_human": 65.4,
+        "mean_signed_error": 34.6,
+        "share_of_total_signed_error_pct": 10.2
+      }
+    }
+  },
+  "additional": {
+    "n": 900,
+    "bias": 17.81,
+    "human_scores_at_vote_shares_pct": 97.4,
+    "by_judge_score": {
+      "0.0": {
+        "rows": 18,
+        "mean_human": 16.7,
+        "mean_signed_error": -16.7,
+        "share_of_total_signed_error_pct": -1.9
+      },
+      "25.0": {
+        "rows": 159,
+        "mean_human": 23.5,
+        "mean_signed_error": 1.5,
+        "share_of_total_signed_error_pct": 1.5
+      },
+      "50.0": {
+        "rows": 164,
+        "mean_human": 43.7,
+        "mean_signed_error": 6.3,
+        "share_of_total_signed_error_pct": 6.4
+      },
+      "75.0": {
+        "rows": 507,
+        "mean_human": 49.3,
+        "mean_signed_error": 25.7,
+        "share_of_total_signed_error_pct": 81.2
+      },
+      "90.0": {
+        "rows": 12,
+        "mean_human": 58.3,
+        "mean_signed_error": 31.7,
+        "share_of_total_signed_error_pct": 2.4
+      },
+      "95.0": {
+        "rows": 2,
+        "mean_human": 33.3,
+        "mean_signed_error": 61.7,
+        "share_of_total_signed_error_pct": 0.8
+      },
+      "100.0": {
+        "rows": 38,
+        "mean_human": 59.2,
+        "mean_signed_error": 40.8,
+        "share_of_total_signed_error_pct": 9.7
+      }
+    }
+  }
+}

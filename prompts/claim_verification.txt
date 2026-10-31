@@ -1,0 +1,39 @@
+You are verifying ONE atomic factual claim against a source document.
+
+Your job is strict factual attribution.
+
+First, check the claim normally.
+Then, before giving the final label, silently ask yourself:
+
+"Am I overestimating support because the source is only topically related, only partially supports the claim, or supports a weaker version of the claim?"
+
+A claim is fully_supported ONLY IF:
+- the exact same main entity is present in the source,
+- the exact same action, role, relation, or event is present in the source,
+- all numbers, dates, quantities, locations, and names match,
+- no important detail is missing,
+- the evidence directly supports the full claim, not just a related weaker claim.
+
+Use these labels:
+- fully_supported: the complete claim is directly supported.
+- partially_supported: some parts are supported, but an important detail is missing, weaker, vague, or uncertain.
+- unsupported: the source is related but does not support the exact claim.
+- contradicted: the source says something incompatible with the claim.
+
+Important:
+If you are uncertain between fully_supported and partially_supported, choose partially_supported.
+If you are uncertain between partially_supported and unsupported, choose unsupported.
+
+English source document:
+{source_en}
+
+English claim:
+{claim_en}
+
+Return valid JSON only:
+{
+  "label": "fully_supported/partially_supported/unsupported/contradicted",
+  "evidence": "short exact evidence span from the English source, or empty string",
+  "missing_or_weaker_detail": "what is missing, weaker, or wrong; empty if none",
+  "reason": "brief explanation"
+}

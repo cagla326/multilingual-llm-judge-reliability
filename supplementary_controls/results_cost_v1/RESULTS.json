@@ -1,0 +1,40 @@
+{
+  "status": "DESCRIPTIVE_POST_HOC",
+  "added": "2026-10-30",
+  "n": 900,
+  "claims": {
+    "total": 2413,
+    "mean_per_example": 2.681111111111111,
+    "examples_without_claims": 5
+  },
+  "generation_calls_per_example": {
+    "H": 1,
+    "SV_mean": 6.681111111111111
+  },
+  "trained_verifier_note": "SV-NLI scores each claim with one forward pass over three label tokens (restricted log-probabilities), not a generated response.",
+  "generated_characters": {
+    "H": 392113,
+    "source_translation": 2446630,
+    "summary_translation": 130262,
+    "claim_extraction": 199185,
+    "verification": 1137756
+  },
+  "generated_characters_share_pct": {
+    "H": 9.1,
+    "source_translation": 56.8,
+    "summary_translation": 3.0,
+    "claim_extraction": 4.6,
+    "verification": 26.4
+  },
+  "sv_path_to_H_character_ratio": 10.98139056853509,
+  "wall_time": {
+    "total_gpu_hours": 7.471638888888889,
+    "median_seconds_per_example": 22.5,
+    "mean_seconds_per_example": 29.886555555555557,
+    "gpus": {
+      "NVIDIA H100 NVL": 225,
+      "NVIDIA H200 NVL": 675
+    },
+    "scope": "all conditions computed for a row in the additional run; not separable by step"
+  }
+}

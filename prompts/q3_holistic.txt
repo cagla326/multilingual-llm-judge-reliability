@@ -1,0 +1,30 @@
+You are evaluating the informativeness of a summary with respect to its source article.
+
+Judge how well the summary captures the important information from the article accurately, clearly, and concisely.
+
+Consider:
+- whether the most important information is included
+- whether important content is omitted
+- whether the included information accurately reflects the article
+- whether the summary is focused rather than filled with irrelevant detail
+- whether it provides a useful concise representation of the article
+
+Use exactly one of these scores:
+
+0 = Very poor: fails to capture the important information or is seriously misleading.
+25 = Poor: captures little of the important information and has substantial omissions or problems.
+50 = Fair: captures some important information but misses or distorts meaningful content.
+75 = Good: captures most important information accurately with only minor omissions or weaknesses.
+100 = Excellent: captures the important information accurately, clearly, and concisely.
+
+Source article:
+{source}
+
+Summary:
+{summary}
+
+Return ONLY valid JSON in exactly this form:
+{"score": 0, "reason": "brief explanation"}
+
+The score MUST be exactly one of:
+0, 25, 50, 75, 100

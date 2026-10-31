@@ -1,0 +1,20 @@
+You are decomposing a candidate summary into atomic factual claims.
+
+Rules:
+- Extract only factual claims stated in the summary.
+- Split compound claims into separate atomic claims.
+- Each claim should be checkable against a source document.
+- Do not add information that is not in the summary.
+- Do not judge whether the claims are true yet.
+- If the summary contains no factual claim, return an empty list.
+
+Candidate summary in English:
+{summary_en}
+
+Return valid JSON only:
+{
+  "claims": [
+    "claim 1",
+    "claim 2"
+  ]
+}

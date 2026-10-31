@@ -1,0 +1,11 @@
+Translate the following {text_type} into English.
+
+Rules:
+- Preserve all names, dates, numbers, quantities, places, organizations, and roles exactly.
+- Do not summarize.
+- Do not add information.
+- Do not omit factual details.
+- Return only the English translation, with no commentary.
+
+Text:
+{text}

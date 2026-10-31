@@ -1,0 +1,552 @@
+{
+  "status": "EXPLORATORY_POST_HOC",
+  "added": "2026-10-28",
+  "development": {
+    "counts": {
+      "rows_affected_any": 30
+    },
+    "reported": {
+      "n_rows": 900,
+      "systems": {
+        "H": {
+          "spearman": 0.252151,
+          "mae": 34.607633,
+          "bias": 18.114856,
+          "extreme_over": 22.888889,
+          "extreme_under": 4.888889
+        },
+        "SV": {
+          "spearman": 0.34985,
+          "mae": 32.161009,
+          "bias": 15.120676,
+          "extreme_over": 20.111111,
+          "extreme_under": 4.555556
+        }
+      },
+      "contrasts": {
+        "SV - H": {
+          "spearman": {
+            "estimate": 0.097699,
+            "ci95": [
+              0.035138,
+              0.162387
+            ]
+          },
+          "mae": {
+            "estimate": -2.446624,
+            "ci95": [
+              -3.49325,
+              -1.406518
+            ]
+          },
+          "extreme_under": {
+            "estimate": -0.333333,
+            "ci95": [
+              -1.555556,
+              1.111111
+            ]
+          }
+        }
+      }
+    },
+    "fallback": {
+      "n_rows": 900,
+      "systems": {
+        "H": {
+          "spearman": 0.252151,
+          "mae": 34.607633,
+          "bias": 18.114856,
+          "extreme_over": 22.888889,
+          "extreme_under": 4.888889
+        },
+        "SV": {
+          "spearman": 0.347118,
+          "mae": 32.330916,
+          "bias": 15.475768,
+          "extreme_over": 20.444444,
+          "extreme_under": 4.444444
+        }
+      },
+      "contrasts": {
+        "SV - H": {
+          "spearman": {
+            "estimate": 0.094967,
+            "ci95": [
+              0.033482,
+              0.157325
+            ]
+          },
+          "mae": {
+            "estimate": -2.276717,
+            "ci95": [
+              -3.307084,
+              -1.232436
+            ]
+          },
+          "extreme_under": {
+            "estimate": -0.444444,
+            "ci95": [
+              -1.777778,
+              1.111111
+            ]
+          }
+        }
+      }
+    },
+    "exclude": {
+      "n_rows": 870,
+      "systems": {
+        "H": {
+          "spearman": 0.246677,
+          "mae": 34.605598,
+          "bias": 18.019184,
+          "extreme_over": 22.873563,
+          "extreme_under": 4.827586
+        },
+        "SV": {
+          "spearman": 0.343998,
+          "mae": 32.240764,
+          "bias": 15.231622,
+          "extreme_over": 20.229885,
+          "extreme_under": 4.482759
+        }
+      },
+      "contrasts": {
+        "SV - H": {
+          "spearman": {
+            "estimate": 0.097321,
+            "ci95": [
+              0.033947,
+              0.160913
+            ]
+          },
+          "mae": {
+            "estimate": -2.364834,
+            "ci95": [
+              -3.392139,
+              -1.336562
+            ]
+          },
+          "extreme_under": {
+            "estimate": -0.344828,
+            "ci95": [
+              -1.62985,
+              1.150748
+            ]
+          }
+        }
+      }
+    }
+  },
+  "additional": {
+    "counts": {
+      "extraction_unparsable": 4,
+      "empty_claim_list": 1,
+      "rows_with_verifier_parse_failure": 39,
+      "verifier_parse_failures": 43,
+      "rows_affected_any": 44
+    },
+    "reported": {
+      "n_rows": 900,
+      "systems": {
+        "H": {
+          "spearman": 0.275296,
+          "mae": 33.409378,
+          "bias": 17.809267,
+          "extreme_over": 21.333333,
+          "extreme_under": 4.333333
+        },
+        "SV": {
+          "spearman": 0.32122,
+          "mae": 31.352631,
+          "bias": 14.168757,
+          "extreme_over": 20.888889,
+          "extreme_under": 4.555556
+        },
+        "Mean": {
+          "spearman": 0.338497,
+          "mae": 31.694901,
+          "bias": 15.455265,
+          "extreme_over": 21.111111,
+          "extreme_under": 4.888889
+        },
+        "SV-NLI": {
+          "spearman": 0.390199,
+          "mae": 29.638556,
+          "bias": 11.084267,
+          "extreme_over": 17.777778,
+          "extreme_under": 6.111111
+        },
+        "Mean-NLI": {
+          "spearman": 0.394311,
+          "mae": 30.358844,
+          "bias": 11.508341,
+          "extreme_over": 18.888889,
+          "extreme_under": 7.111111
+        }
+      },
+      "contrasts": {
+        "SV - H": {
+          "spearman": {
+            "estimate": 0.045924,
+            "ci95": [
+              -0.002469,
+              0.093449
+            ]
+          },
+          "mae": {
+            "estimate": -2.056746,
+            "ci95": [
+              -2.75019,
+              -1.361387
+            ]
+          },
+          "extreme_under": {
+            "estimate": 0.222222,
+            "ci95": [
+              -1.333333,
+              1.777778
+            ]
+          }
+        },
+        "SV-NLI - SV": {
+          "spearman": {
+            "estimate": 0.068979,
+            "ci95": [
+              0.022267,
+              0.114528
+            ]
+          },
+          "mae": {
+            "estimate": -1.714076,
+            "ci95": [
+              -2.625358,
+              -0.783581
+            ]
+          },
+          "extreme_under": {
+            "estimate": 1.555556,
+            "ci95": [
+              0.111111,
+              3.0
+            ]
+          }
+        },
+        "Mean - SV": {
+          "spearman": {
+            "estimate": 0.017277,
+            "ci95": [
+              0.004824,
+              0.029778
+            ]
+          },
+          "mae": {
+            "estimate": 0.34227,
+            "ci95": [
+              -0.08654,
+              0.781567
+            ]
+          },
+          "extreme_under": {
+            "estimate": 0.333333,
+            "ci95": [
+              -0.222222,
+              1.0
+            ]
+          }
+        },
+        "Mean-NLI - SV-NLI": {
+          "spearman": {
+            "estimate": 0.004111,
+            "ci95": [
+              -0.012203,
+              0.020766
+            ]
+          },
+          "mae": {
+            "estimate": 0.720289,
+            "ci95": [
+              0.173919,
+              1.322186
+            ]
+          },
+          "extreme_under": {
+            "estimate": 1.0,
+            "ci95": [
+              0.333333,
+              1.777778
+            ]
+          }
+        }
+      }
+    },
+    "fallback": {
+      "n_rows": 900,
+      "systems": {
+        "H": {
+          "spearman": 0.275296,
+          "mae": 33.409378,
+          "bias": 17.809267,
+          "extreme_over": 21.333333,
+          "extreme_under": 4.333333
+        },
+        "SV": {
+          "spearman": 0.338918,
+          "mae": 31.346297,
+          "bias": 14.819882,
+          "extreme_over": 21.0,
+          "extreme_under": 3.888889
+        },
+        "Mean": {
+          "spearman": 0.354674,
+          "mae": 31.781174,
+          "bias": 16.319353,
+          "extreme_over": 21.777778,
+          "extreme_under": 4.111111
+        },
+        "SV-NLI": {
+          "spearman": 0.395254,
+          "mae": 29.573733,
+          "bias": 11.1676,
+          "extreme_over": 17.777778,
+          "extreme_under": 6.0
+        },
+        "Mean-NLI": {
+          "spearman": 0.398407,
+          "mae": 30.298667,
+          "bias": 11.661119,
+          "extreme_over": 18.888889,
+          "extreme_under": 6.888889
+        }
+      },
+      "contrasts": {
+        "SV - H": {
+          "spearman": {
+            "estimate": 0.063623,
+            "ci95": [
+              0.0157,
+              0.112277
+            ]
+          },
+          "mae": {
+            "estimate": -2.063081,
+            "ci95": [
+              -2.72715,
+              -1.388894
+            ]
+          },
+          "extreme_under": {
+            "estimate": -0.444444,
+            "ci95": [
+              -1.888889,
+              1.111111
+            ]
+          }
+        },
+        "SV-NLI - SV": {
+          "spearman": {
+            "estimate": 0.056336,
+            "ci95": [
+              0.012815,
+              0.09897
+            ]
+          },
+          "mae": {
+            "estimate": -1.772563,
+            "ci95": [
+              -2.699058,
+              -0.828023
+            ]
+          },
+          "extreme_under": {
+            "estimate": 2.111111,
+            "ci95": [
+              0.777778,
+              3.555556
+            ]
+          }
+        },
+        "Mean - SV": {
+          "spearman": {
+            "estimate": 0.015755,
+            "ci95": [
+              0.001948,
+              0.02879
+            ]
+          },
+          "mae": {
+            "estimate": 0.434877,
+            "ci95": [
+              -0.002263,
+              0.859466
+            ]
+          },
+          "extreme_under": {
+            "estimate": 0.222222,
+            "ci95": [
+              -0.333333,
+              0.777778
+            ]
+          }
+        },
+        "Mean-NLI - SV-NLI": {
+          "spearman": {
+            "estimate": 0.003153,
+            "ci95": [
+              -0.013211,
+              0.020483
+            ]
+          },
+          "mae": {
+            "estimate": 0.724933,
+            "ci95": [
+              0.170272,
+              1.327749
+            ]
+          },
+          "extreme_under": {
+            "estimate": 0.888889,
+            "ci95": [
+              0.222222,
+              1.666667
+            ]
+          }
+        }
+      }
+    },
+    "exclude": {
+      "n_rows": 856,
+      "systems": {
+        "H": {
+          "spearman": 0.285692,
+          "mae": 33.380152,
+          "bias": 17.815409,
+          "extreme_over": 21.728972,
+          "extreme_under": 4.32243
+        },
+        "SV": {
+          "spearman": 0.342901,
+          "mae": 31.363164,
+          "bias": 14.74663,
+          "extreme_over": 21.261682,
+          "extreme_under": 4.088785
+        },
+        "Mean": {
+          "spearman": 0.359872,
+          "mae": 31.72791,
+          "bias": 16.201486,
+          "extreme_over": 21.61215,
+          "extreme_under": 4.32243
+        },
+        "SV-NLI": {
+          "spearman": 0.400581,
+          "mae": 29.587792,
+          "bias": 11.150689,
+          "extreme_over": 17.990654,
+          "extreme_under": 6.074766
+        },
+        "Mean-NLI": {
+          "spearman": 0.405559,
+          "mae": 30.247769,
+          "bias": 11.508945,
+          "extreme_over": 18.574766,
+          "extreme_under": 7.009346
+        }
+      },
+      "contrasts": {
+        "SV - H": {
+          "spearman": {
+            "estimate": 0.057208,
+            "ci95": [
+              0.00677,
+              0.106623
+            ]
+          },
+          "mae": {
+            "estimate": -2.016988,
+            "ci95": [
+              -2.750277,
+              -1.298956
+            ]
+          },
+          "extreme_under": {
+            "estimate": -0.233645,
+            "ci95": [
+              -1.807867,
+              1.400315
+            ]
+          }
+        },
+        "SV-NLI - SV": {
+          "spearman": {
+            "estimate": 0.057681,
+            "ci95": [
+              0.010526,
+              0.103167
+            ]
+          },
+          "mae": {
+            "estimate": -1.775372,
+            "ci95": [
+              -2.734961,
+              -0.785995
+            ]
+          },
+          "extreme_under": {
+            "estimate": 1.985981,
+            "ci95": [
+              0.586854,
+              3.480278
+            ]
+          }
+        },
+        "Mean - SV": {
+          "spearman": {
+            "estimate": 0.016972,
+            "ci95": [
+              0.003496,
+              0.030118
+            ]
+          },
+          "mae": {
+            "estimate": 0.364746,
+            "ci95": [
+              -0.069361,
+              0.816868
+            ]
+          },
+          "extreme_under": {
+            "estimate": 0.233645,
+            "ci95": [
+              -0.350887,
+              0.819672
+            ]
+          }
+        },
+        "Mean-NLI - SV-NLI": {
+          "spearman": {
+            "estimate": 0.004977,
+            "ci95": [
+              -0.011513,
+              0.022335
+            ]
+          },
+          "mae": {
+            "estimate": 0.659977,
+            "ci95": [
+              0.087349,
+              1.25527
+            ]
+          },
+          "extreme_under": {
+            "estimate": 0.934579,
+            "ci95": [
+              0.235011,
+              1.760615
+            ]
+          }
+        }
+      }
+    }
+  }
+}

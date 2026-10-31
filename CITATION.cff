@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying thesis and the original datasets and methods."
+type: software
+title: "Multilingual LLM-as-a-Judge Reliability: Thesis Code"
+authors:
+  - family-names: "Azizoğlu"
+    given-names: "Çağla Ece"
+version: "TC-20261025-v1"
+abstract: "Code for the bachelor's thesis Multilingual LLM-as-a-Judge Reliability: Diagnosis, Selective Verification, and Targeted Adaptation (Technical University of Munich, 2026)."
+license: MIT
+# Add after creating the repository:
+# repository-code: "https://github.com/<user>/multilingual-llm-judge-reliability"
