@@ -7,10 +7,10 @@
       "bytes": 101,
       "sha256": "1a92a641799c5c30e8f3f1669af5c854b991ac036fed289ad3c7e912318ac918"
     },
-    {
+       {
       "path": "CITATION.cff",
-      "bytes": 593,
-      "sha256": "65b327a6262cffead68e6700d9bf75cc6608bd8e2e8e962809bfe7b2e6526772"
+      "bytes": 556,
+      "sha256": "5eba2bd79db6bdf55c900dc2992e4c77efd4c7917e90d84432417e846324863e"
     },
     {
       "path": "CODE_MAP.json",
