@@ -1,0 +1,40 @@
+{
+  "status": "FROZEN_BEFORE_ANY_HOLDOUT_MODEL_OUTPUT",
+  "created": "2026-10-20",
+  "preregistration_sha256": "662d6a509ab30b9e665221b0f3a01034a1c80dbfe878ef03807613f93a864aee",
+  "primary": [
+    "Spearman(S0)-Spearman(H)",
+    "Spearman(S*)-Spearman(S0)"
+  ],
+  "S_star_rule": "S*_R if repair matched contrast (protocol 903ff6e9...) reads 'improvement supported', else S*_T",
+  "repair_protocol_sha256": "903ff6e9cc5215fc853f9b501eebf845149433560949c1cf48092c8007b22db3",
+  "adapter_weights_sha256": "818a9c918109536d0c3fd90598303030f0ffc5d3885b986f7153b65f95d2472d",
+  "bootstrap": {
+    "unit": "language",
+    "replicates": 2000,
+    "seed": 20261021
+  },
+  "package_hashes": {
+    "EXPERIMENT_PLAN.md": "09b1503f6a931afa2b3b0b4b7ab8250231caecba26cb7e8afa9bfa04bc7e8e2f",
+    "README_TR.txt": "ba225ddb5ede98967f21d333330252006e5ece4b0fa89d04580d93194b976829",
+    "common.py": "3f16c6075c4700d81472aa90b9e6d33ae3e9dfa66e20c8f4e3d01d683b0d6882",
+    "run_holdout.py": "8a730040f1d6c86fd18dcaa2447b1fe410b6f7f74333f7bd55ddf3ebddfb6246",
+    "analyze_holdout.py": "5e2bd54163ed6075869786556d88d3f41ae7b57615841ffcc7b3dc21d908a810",
+    "submit_holdout.slurm": "0d297131550085e1e205794fcfa59f173e01b9f9e8634743bcdf7b99ba50cfa2",
+    "test_offline.py": "17a9bce584cfc2fb12c9da6a659336afa15df94e8845e8338e0b3a5fe19f5d64",
+    "data/HOLDOUT_MANIFEST.json": "84fa4ec3bf94915ecc4d87bdcbf0d86289956a03620c279cc2c9080868a495b3",
+    "data/PREREGISTRATION.md": "662d6a509ab30b9e665221b0f3a01034a1c80dbfe878ef03807613f93a864aee",
+    "data/bridge_prompt_reference.jsonl": "dd23d09dc3824b351119ead5730739aa18a3fff011a70fde4c26d53dafe6d05e",
+    "data/bridge_reference.jsonl": "2f62eb740549225c3cf6307bbef4ac3466efe8e4927de4ddc029cbb92ab62df9",
+    "data/dev_parser_reference.csv": "c774d3e6e90b102cc089f74e2a42b51ba9fd44c8d19a3209b47f63fd88567f2e",
+    "data/excluded_development_articles.csv": "eb6a256569ed59395a6d84eace5836bd311977c2379037798b5653e76671c1d4",
+    "data/holdout900_inputs_NO_HUMAN_SCORES.csv": "22144eb4bda4750bfb7e04e225e68d2920fa9c2600973aac3a8ff1003aa37670",
+    "data/holdout900_labels_SEALED.csv": "ff05de474e01f1aa830a466d06cebfe1d3dfbd4bf2fe7fbad489e495ea5863e1",
+    "data/make_holdout.py": "705e901840d7cd86300c64ed14d344accaf2ca592967c31570f06a8fed7f6223",
+    "data/reference_run_gemma_fullsource_q2.py": "94613f388d3f18ffe5639db518d7358fcde608ef397e71bf95bbfa1ee3a6706c",
+    "prompts/claim_extraction.txt": "fed9983a949c6073f83458bde6c382df22b4e7d63e91c543383a461a03a605bd",
+    "prompts/claim_verification.txt": "aabd07bc160d4fb215cd04539522d2925c536a2c55d4cc248911d1e04ead1266",
+    "prompts/nli_ko.txt": "87edd9b42927a9c653dfd7dfdd45c920ab3f243705040bcf337d7f9156e2a03a",
+    "prompts/translation.txt": "57872ab7cfd50a7f0f381f973ce32afa22a9975e5001c816e536e7aa0dfcb3cb"
+  }
+}

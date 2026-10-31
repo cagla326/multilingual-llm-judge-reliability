@@ -1,0 +1,37 @@
+{
+  "status": "NEW_DEVELOPMENT_PLAN_BEFORE_TRAINING",
+  "model_id": "google/gemma-3-4b-it",
+  "revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+  "training": {
+    "lr": 5e-05,
+    "epochs": 2,
+    "accumulation": 8,
+    "microbatch": 1,
+    "seed": 2026,
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "max_sequence_tokens": 512
+  },
+  "selection": "minimum internal-validation restricted-label NLL including epoch0; earlier wins ties",
+  "package_hashes": {
+    "DATA_MANIFEST.json": "050768cc1094587b0def02bdc0e4399e74c04a85a5ca55140d3686415ac28b82",
+    "METHOD.md": "d03a0ccb263a86d91e54e7ca69cffb16cb10b8a284fc63f43a607ed7dfa29124",
+    "README_TR.txt": "d0bd59ab6973472398485b7817b1b5609d130750edc894c5fe7b3bbe0031fd9b",
+    "TRAIN_SOURCE.json": "be74c16ab3effd8e5816b36eac9ad34122320228fe0733cef12cefeadfc331cd",
+    "analyze.py": "f1ad61bc1a040c3e87c2b781dc258ccebaecf8efb3a75da11357fee4fa46a039",
+    "data/PREVIOUSLY_INSPECTED_PUBLIC_DEV.json": "0699db82be17766b26e199864e6260443e17ec6e91d1870e876419e388f245b1",
+    "data/UPSTREAM_License.md": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+    "data/UPSTREAM_README.md": "1f87facecc35feabf8ad25ecd2eda75bab8ea3ad074569b5239b4d57197ea059",
+    "data/internal_test.jsonl": "e848fc3c86e7433c19022760ba17ac26e0365205766e4ff127aeb8a6b4760ac0",
+    "data/klue-nli-v1.1_train.json": "8d32e7e4ff97804a23f277fee8740f1341ac82e1c0c7b34f1be21952e4813996",
+    "data/selected_original_records.json": "828f8f2115609bd46aee06e03052c6077416fd4c1a44097629c4872fbc0ac948",
+    "data/train.jsonl": "00eeea1c51e35e78abb23a64b51e062f00bd0e8709257a1347c5fce57efbdb96",
+    "data/validation.jsonl": "29d32c2c2fdd3f3efe6f324d939a765355d1af400f2526e535052770f4239504",
+    "data_checks.py": "e9952592c255ce6f93a81c7be4d39826dfc31de939817374f6a44601bdfda533",
+    "prepare_data.py": "0596aed063ccb38f65a653b4068c5bad7d18a91e4f9fcd2fa5a9909fe8124301",
+    "submit_verifier.slurm": "e9dcf7d8fab5f826c4fd92a89c8b2e227058a9902b781ac17b04bdd91a42d9f1",
+    "test_offline.py": "dc7ffb58add04eeb70d25b46724f4704cabb4ac75e59e75f1f0cc1cc0a74a393",
+    "verifier.py": "00bb77bded48a5b92c409bb73fb13c5174aca1ef9a27536e1c206b36ecf35a2e"
+  }
+}

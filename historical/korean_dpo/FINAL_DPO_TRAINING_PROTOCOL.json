@@ -1,0 +1,94 @@
+{
+  "status": "FROZEN_BEFORE_FINAL_DPO_TRAINING",
+  "created_utc": "2026-08-25T11:36:25.982526+00:00",
+  "experiment": "Korean XL-Sum final factual-preference DPO",
+  "model_id": "google/gemma-3-4b-it",
+  "training_data": {
+    "file": "korean_xlsum_TRAIN100_SWAP_AUGMENTED.jsonl",
+    "sha256": "2c148f995a0e71e6b3cecd876aba4d0e784ac9fa30bea83baaf7e712a233b42f",
+    "semantic_pairs": 50,
+    "presentations": 100,
+    "orientations": {
+      "original": 50,
+      "swapped": 50
+    },
+    "chosen_labels": {
+      "A": 50,
+      "B": 50
+    },
+    "original_preferred_labels": {
+      "A": 25,
+      "B": 25
+    },
+    "severity": {
+      "major": 25,
+      "minor": 25
+    }
+  },
+  "training": {
+    "implementation": "stable manual DPO inherited from V4 pilot",
+    "beta": 0.1,
+    "epochs": 5,
+    "learning_rate": 1e-05,
+    "max_length": 3072,
+    "optimizer": "torch.optim.AdamW",
+    "seed": 2026,
+    "shuffle": "random.Random(SEED + epoch).shuffle(epoch_rows)",
+    "expected_optimizer_steps": 500
+  },
+  "precision": {
+    "model": "bfloat16",
+    "logits_for_logprob": "float32"
+  },
+  "lora": {
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.05,
+    "bias": "none",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "reference_policy": "same Gemma base policy evaluated with LoRA adapter disabled",
+  "answer_format": "literal A or B only",
+  "output_adapter": "gemma3_4b_ko_xlsum_FINAL_DPO_train100",
+  "implementation": {
+    "pilot_source": "train_korean_hard_dpo_LABELONLY_SWAP_SHUFFLED_v4.py",
+    "pilot_source_sha256": "3ff59f7fca40f83a184c9ad43f8905284a09ebd00892d9e0c9d2d1e45eb56a56",
+    "final_script": "train_korean_xlsum_FINAL_DPO.py",
+    "final_script_sha256": "0b0b3e1589902143ccc250eb20f0b9daf8ce9568ed5cb9d7f8068a41c597ba03",
+    "slurm_script": "submit_korean_xlsum_FINAL_DPO.slurm",
+    "slurm_script_sha256": "f1876ff12feb2590bd4be41eb0bbcc7db571cab49a5423bff8fb514253118b0a",
+    "changes_from_v4": [
+      "training input changed from 24 pilot presentations to frozen TRAIN100",
+      "output directory changed",
+      "semantic_pair_id plus orientation mapped to V4 id field"
+    ],
+    "unchanged_from_v4": [
+      "manual DPO objective",
+      "beta",
+      "epochs",
+      "learning rate",
+      "MAX_LEN",
+      "optimizer",
+      "LoRA configuration",
+      "precision",
+      "reference-policy computation",
+      "seed",
+      "epoch shuffle rule"
+    ]
+  },
+  "test_policy": {
+    "frozen_test": "Korean XL-Sum TEST50",
+    "used_before_final_training": false,
+    "used_for_hyperparameter_selection": false,
+    "used_for_prompt_selection": false,
+    "rule": "No TEST50 model outputs may be inspected until this final adapter finishes training."
+  }
+}

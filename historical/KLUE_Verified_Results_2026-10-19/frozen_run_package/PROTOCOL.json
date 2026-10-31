@@ -1,0 +1,26 @@
+{
+  "experiment": "KLUE-NLI pairwise external-task transfer and source-omission control",
+  "status": "PREPARED_NO_MODEL_OUTPUTS",
+  "source_revision": "3efd98708a40ff49251fddde35453f8fbb11f536",
+  "model_revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+  "semantic_pairs": 1000,
+  "main_generations": 8000,
+  "primary": "provided-context strict original-orientation adapted-minus-base accuracy",
+  "package_hashes": {
+    "run_klue.py": "225ed40ce22f92cf9b2c236c1eb2bb5a3a026375d2aaf5d630e2c079cbb8e3dd",
+    "analyze_klue.py": "48669f941807efd636fb82fdd78d3a3d3091904fe079058765ed283f66ac02e6",
+    "prepare_data.py": "0f041467d3c6cb7a3acc5333dc82ce1707cadfbb3a26aa03cc9d3ace55a14605",
+    "validate_inputs.py": "ed26f3520f8ec89235572be028bc415575e0245c7438ded3a61992c4f486210a",
+    "test_offline.py": "8c1d89235a53b71c9e5a53bf51b0f4c5fa343a77553979f7e13a5a22cce44784",
+    "submit_klue.slurm": "2f4ebdf529612e0041e38f692ad022f863e5e6c1466e553726f17dd27473c384",
+    "EXPERIMENT_PLAN.md": "0ff064c78719e1e85f446232fb0a336643f2fc849f22d7c589e526d079014933",
+    "SOURCE_PROVENANCE.json": "bab58caf10905d208b7a00f4d0b21c42954646d4835cbbf068c614fa5f773d6f",
+    "DATA_AUDIT.json": "d626de46ed89e53f0b1b1a86996c167025d327482b50b5d72f3b8663f6b48eb1",
+    "data/klue-nli-v1.1_dev.json": "0699db82be17766b26e199864e6260443e17ec6e91d1870e876419e388f245b1",
+    "data/UPSTREAM_License.md": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+    "data/UPSTREAM_README.md": "1f87facecc35feabf8ad25ecd2eda75bab8ea3ad074569b5239b4d57197ea059",
+    "data/pairs.jsonl": "3a334c8cf7cfb2f7a6c79bde024092f23f78d2fb96e98686f78ad11d2b5201c4",
+    "data/evaluate.jsonl": "40cd248a833bb043fa16fdf8577f39c9a0f437a16c4ceb6b7b8f83b84092f6b2",
+    "data/ablation.jsonl": "7a991edc99904aaa5276b76b4d1766d5c2a9b2267e52f4d9f2dcccb3437d4236"
+  }
+}

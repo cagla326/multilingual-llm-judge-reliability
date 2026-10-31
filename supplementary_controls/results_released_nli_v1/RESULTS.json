@@ -1,0 +1,186 @@
+{
+  "status": "EXPLORATORY_POST_HOC",
+  "added": "2026-10-30",
+  "release_file_sha256": "23d84ead1d1d651c858413ee9248e79e52d3b9b39e1ad975f0c18f7877b4d715",
+  "release_check": "selected rows match archived identifiers, human scores and development released-NLI values",
+  "seed": 20261024,
+  "draws": 2000,
+  "development": {
+    "n": 900,
+    "overall": {
+      "H": {
+        "spearman": 0.25215132897979803,
+        "kendall": 0.21617730751930436
+      },
+      "SV": {
+        "spearman": 0.3498503685160105,
+        "kendall": 0.28724973818038085
+      },
+      "released_nli": {
+        "spearman": 0.410586991218665,
+        "kendall": 0.3103717587361748
+      }
+    },
+    "contrasts_spearman": {
+      "released_nli minus H": {
+        "estimate": 0.15843566223886696,
+        "ci95": [
+          0.08186896752419051,
+          0.23874879840406074
+        ]
+      },
+      "released_nli minus SV": {
+        "estimate": 0.06073662270265451,
+        "ci95": [
+          -0.019647984472738595,
+          0.14177547099019533
+        ]
+      }
+    },
+    "within_system_spearman_range": [
+      0.25734968637845174,
+      0.4707818436681061
+    ],
+    "by_system": {
+      "human": {
+        "n": 128,
+        "spearman_released_nli": 0.25734968637845174
+      },
+      "xxl-best_nli": {
+        "n": 127,
+        "spearman_released_nli": 0.4707818436681061
+      },
+      "xxl-best_rouge": {
+        "n": 128,
+        "spearman_released_nli": 0.41121582651202876
+      },
+      "xxl_controlled_multi_nli-best_nli": {
+        "n": 130,
+        "spearman_released_nli": 0.3695092379192099
+      },
+      "xxl_controlled_multi_nli-best_rouge": {
+        "n": 115,
+        "spearman_released_nli": 0.37735342050297443
+      },
+      "xxl_positive_only-best_nli": {
+        "n": 134,
+        "spearman_released_nli": 0.35931210075724035
+      },
+      "xxl_positive_only-best_rouge": {
+        "n": 138,
+        "spearman_released_nli": 0.4408127434667059
+      }
+    },
+    "within_language_released_nli": {
+      "defined": 45,
+      "median": 0.42305798348260587,
+      "q1": 0.2548904363089257,
+      "q3": 0.5588409954051002
+    }
+  },
+  "additional": {
+    "n": 900,
+    "overall": {
+      "H": {
+        "spearman": 0.2752955875454774,
+        "kendall": 0.23645804713895002
+      },
+      "SV": {
+        "spearman": 0.3212200407159399,
+        "kendall": 0.26276897619237843
+      },
+      "Mean": {
+        "spearman": 0.3384974568840056,
+        "kendall": 0.26767022111552613
+      },
+      "SV_NLI": {
+        "spearman": 0.39019933284695846,
+        "kendall": 0.3184879678837739
+      },
+      "Mean_NLI": {
+        "spearman": 0.3943108133775623,
+        "kendall": 0.3131063835436328
+      },
+      "released_nli": {
+        "spearman": 0.45376419615805147,
+        "kendall": 0.3431246177165798
+      }
+    },
+    "contrasts_spearman": {
+      "released_nli minus H": {
+        "estimate": 0.17846860861257408,
+        "ci95": [
+          0.11236120468066847,
+          0.24672901504605818
+        ]
+      },
+      "released_nli minus SV": {
+        "estimate": 0.13254415544211157,
+        "ci95": [
+          0.05524979340820539,
+          0.2105076866954131
+        ]
+      },
+      "released_nli minus SV_NLI": {
+        "estimate": 0.06356486331109301,
+        "ci95": [
+          -0.00764398101724834,
+          0.1375832906411524
+        ]
+      },
+      "released_nli minus Mean_NLI": {
+        "estimate": 0.05945338278048917,
+        "ci95": [
+          -0.0040771383544582675,
+          0.12537324899991337
+        ]
+      }
+    },
+    "within_system_spearman_range": [
+      0.20693624796794255,
+      0.528108518426344
+    ],
+    "by_system": {
+      "human": {
+        "n": 148,
+        "spearman_released_nli": 0.20693624796794255
+      },
+      "xxl-best_nli": {
+        "n": 117,
+        "spearman_released_nli": 0.4206123710383176
+      },
+      "xxl-best_rouge": {
+        "n": 123,
+        "spearman_released_nli": 0.528108518426344
+      },
+      "xxl_controlled_multi_nli-best_nli": {
+        "n": 136,
+        "spearman_released_nli": 0.4535130602755397
+      },
+      "xxl_controlled_multi_nli-best_rouge": {
+        "n": 124,
+        "spearman_released_nli": 0.36604019736739846
+      },
+      "xxl_positive_only-best_nli": {
+        "n": 121,
+        "spearman_released_nli": 0.4267025830835449
+      },
+      "xxl_positive_only-best_rouge": {
+        "n": 131,
+        "spearman_released_nli": 0.5242710961903146
+      }
+    },
+    "within_language_released_nli": {
+      "defined": 45,
+      "median": 0.49644794271650017,
+      "q1": 0.2806474853546109,
+      "q3": 0.6115954364335566
+    }
+  },
+  "limits": [
+    "Specified after all reported results had been inspected; exploratory.",
+    "Released score is on a different scale; only rank-based measures are compared.",
+    "Some mFACE systems were trained or selected with NLI signals, which may favour this score.",
+    "Intervals are nominal language-cluster bootstrap intervals, not adjusted for multiplicity."
+  ]
+}

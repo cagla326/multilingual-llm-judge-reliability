@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_BEFORE_BRIDGE_GENERATION",
+  "primary": "trained3 selective minus original4 selective global Spearman on all900",
+  "secondary_matched_control": "trained3 selective minus base3 selective",
+  "new_training": false,
+  "thresholds_fixed": [
+    75,
+    50
+  ],
+  "support_policy": "entailment 100, neutral/contradiction 0; contradiction cap25, otherwise neutral cap50; emptyclaims0",
+  "bootstrap": {
+    "unit": "original source language",
+    "replicates": 2000,
+    "seed": 20261019
+  },
+  "package_hashes": {
+    "DATA_MANIFEST.json": "6d5b37e5642e27f649cf1cf58e5152aad1cdf60e7f4c5df5cd1e942f14f6011c",
+    "EXPERIMENT_PLAN.md": "767d61b4fa1c0806efe7025c6c4197a4009202e957d3f67f9225e919bc036967",
+    "README_TR.txt": "3df5095abfcc3b9d9994daad18ed10700caa8d5165689c09c78b7cb39bc55f92",
+    "analyze_bridge.py": "a826ec4aa140d725deadf7398679a361e1dc38ad09b74847a39533edbb1105c0",
+    "common.py": "b9e31ec7ee82a1839b371f7b371c439bcfc0089701984c94cc35faa6436b4e85",
+    "data/claims.jsonl": "1d5281fa0eaee9057e0b7dd1d7c481b3c98ee49fce4b799a39df61236d32adcc",
+    "data/examples.jsonl": "5691545398cc4a574707d26de293963b82252876068c0bf66eac9224cbf17c4d",
+    "data/original_final900.csv": "5c2db3e774519221115f4f672f71e070729cd8b930118b9c3e9707bf9b78881d",
+    "run_bridge.py": "7ea3f3653bba257a47b5242328b7c6c0f8f30f6c4654fcb77879a951332af7f9",
+    "submit_bridge.slurm": "d3e507f2729caa07d5a7903c22aa60cfb8586f55b4512b1197e7c2ab30cdf60c",
+    "test_offline.py": "8a6dd94d8be28e4dd3b18cda11b1837af07b323c3af44f59a0c5fcd275ff7ba0"
+  }
+}

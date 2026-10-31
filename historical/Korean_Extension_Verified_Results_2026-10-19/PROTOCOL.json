@@ -1,0 +1,24 @@
+{
+  "version": "2026-10-19-v1",
+  "status": "PROSPECTIVE_EXTENSION_NOT_EXECUTED",
+  "primary_transfer": "pooled Spearman adapter minus base on paired numeric non-Korean examples",
+  "n_transfer": 880,
+  "n_languages": 44,
+  "n_robustness_pairs": 50,
+  "n_robustness_presentations": 100,
+  "robustness_context": "post-hoc analysis of previously inspected TEST50",
+  "seed": 2026,
+  "transfer_bootstrap": 2000,
+  "robustness_bootstrap": 10000,
+  "no_retraining": true,
+  "historical_input_sha256": "e8f2c0ee3481e5ed2c658f6f2e2f181201e521b100ae192583befa279f2bbd2c",
+  "historical_korean_protocol_sha256": "d5c30871a628a8c509114e07d4f206c05293ba3b551173a778a4fac75cfba416",
+  "package_hashes": {
+    "run_extension.py": "564bf3cb509d7a5b5dd646d0def63fb59042127c365d7947a86f7a9c15e60ab5",
+    "analyze_extension.py": "b3cda5c98588e252789a55fe41cb0e597226a031c3b26c7fe84a4009b67e02d8",
+    "submit_extension.slurm": "918c095cfa723a47166f9f8dfa4509f955cd33b64e95da545b51725b0a1d252f",
+    "data/korean_test100.jsonl": "cce4c5cc47352232f58fb45ce9a190256489cff5ee8359f3d4252b4183f484af",
+    "data/nonkorean880.jsonl": "7b0cc216975390b694c856e15f9528f94adfd355702ae9e62e674700ee207571",
+    "EXPERIMENT_PLAN.md": "73376d2cd211328302b9f15e43861b5d1db35fb59d9091aa104c8b84ffbead45"
+  }
+}
